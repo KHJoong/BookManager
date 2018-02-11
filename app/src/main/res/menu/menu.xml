@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/plus" android:title="@string/plus"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/search" android:title="@string/search"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/delete_choice" android:title="@string/delete_choice"
+        android:orderInCategory="3"/>
+    <item android:id="@+id/delete_all" android:title="@string/delete_all"
+        android:orderInCategory="4"/>
+    <item android:id="@+id/gobookstore" android:title="@string/gobookstore"
+        android:orderInCategory="5"/>
+    <item android:id="@+id/mini_game" android:title="@string/mini_game"
+        app:showAsAction="always" android:icon="@drawable/game"/>
+</menu>

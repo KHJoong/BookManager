@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kimhj.mybookmanager">
+
+    <uses-sdk android:minSdkVersion="19"/>
+
+    <uses-feature android:name="android.hardware.Camera"
+        android:required="true"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.kimhj.mybookmanager.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BookPlus"
+            android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+        <activity android:name=".BookView"></activity>
+        <activity android:name=".BookComment"></activity>
+        <activity android:name=".BookModify"
+            android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+        <activity android:name=".BookMultiChoiceDel"></activity>
+        <activity android:name=".BookSearch"></activity>
+        <activity android:name=".MiniGameMain"></activity>
+        <activity android:name=".MiniGameInPlay"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".MiniGamePoint"></activity>
+
+    </application>
+
+</manifest>

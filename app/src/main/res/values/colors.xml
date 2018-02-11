@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+
+
+    // 두더지 게임
+    <color name="life">#288C28</color>
+    <color name="nolife">#ffffff</color>
+
+    <color name="fever">#957745</color>
+    <color name="nofever">#ffffff</color>
+
+    <color name="upMole">#AE5E1A</color>
+    <color name="downMole">#957745</color>
+</resources>

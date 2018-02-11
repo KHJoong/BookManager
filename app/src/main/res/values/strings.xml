@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MyBookManager</string>
+    <string name="plus">책 추가</string>
+    <string name="search">책 검색</string>
+    <string name="delete_all">전체 삭제</string>
+    <string name="delete_choice">선택 삭제</string>
+    <string name="mini_game">미니 게임</string>
+    
+    <string name="title">제목</string>
+    <string name="title_hint">책 제목을 입력하세요.</string>
+    <string name="author">작가</string>
+    <string name="author_hint">작가의 이름을 입력하세요.</string>
+    <string name="publisher">출판사</string>
+    <string name="publisher_hint">출판사의 이름을 입력하세요.</string>
+    <string name="pub_date">출판일</string>
+    <string name="pub_date_hint">출판일(YYYY-MM-DD)을 입력하세요.</string>
+    <string name="save_ok">저장</string>
+    <string name="save_cancel">취소</string>
+
+    <string name="delete">삭제</string>
+    <string name="modify">수정</string>
+    <string name="confirm">확인</string>
+
+    <string name="whereru">어디로 가시겠어요?</string>
+    <string name="gobookstore">서점 놀러가기</string>
+    <string name="newitem">신간</string>
+    <string name="bestitem">베스트셀러</string>
+    <string name="aladin">알라딘</string>
+    <string name="yes24">YES24</string>
+
+    <string name="commentbtn">평가</string>
+    <string name="comment">나의 기억 기록</string>
+    <string name="comstar">별점</string>
+
+    // 두더지 게임
+    <string name="point">점수 : </string>
+    <string name="level">레벨 : </string>
+    <string name="init_point">0</string>
+    <string name="init_level">1</string>
+    <string name="life_pt">5</string>
+    <string name="gameplay">게임 시작</string>
+    <string name="confirm_point">POINT</string>
+    <string name="highscore">Your Top 10 Score</string>
+    <string name="initpoint">기록 초기화</string>
+    <string name="pointorder">순위</string>
+    <string name="point_orderpage">점수</string>
+</resources>

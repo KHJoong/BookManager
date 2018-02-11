@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/comTi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/title"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/comTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/comTi"
+        android:gravity="center"
+        android:textSize="18sp"/>
+    
+    <TextView
+        android:id="@+id/comCo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/comment"
+        android:textSize="15sp"
+        android:layout_below="@id/comTitle"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/comComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comCo"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:maxLines="300"
+        android:lines="10"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/comStar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/comComment"
+        android:gravity="center_vertical"
+        android:text="@string/comstar"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"/>
+    <RatingBar
+        android:id="@+id/comStarpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comStar"
+        android:numStars="5"
+        android:layout_centerHorizontal="true"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_marginTop="-15dp"/>
+
+    <Button
+        android:id="@+id/comSavebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comStarpoint"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save_ok"/>
+
+</RelativeLayout>
