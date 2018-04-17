@@ -9,7 +9,7 @@
     <ListView
         android:id="@+id/book_list"
         android:layout_width="match_parent"
-        android:layout_height="587dp"
+        android:layout_height="match_parent"
         android:smoothScrollbar="true"
         android:scrollingCache="false"
         android:animationCache="false"
